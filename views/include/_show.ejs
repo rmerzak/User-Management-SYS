@@ -1,0 +1,17 @@
+<% for(var i = 0; i < users.lenght; i++) { %>
+<tr>
+    <td><%= i +  1%></td>
+    <td><%= users[i].Name %></td>
+    <td><%= users[i].Email %></td>
+    <td><%= users[i].Gender %></td>
+    <td><%= users[i].status %></td>
+    <td>
+        <a href="/update-user" class="btn border-shadow update">
+            <span class="text-gradiant"><i class="fas fa-pencil-alt"></i></span>
+        </a>
+        <a href="#" class="btn border-shadow delete">
+            <span class="text-gradiant"><i class="fas fa-times"></i></span>
+        </a>
+    </td>
+</tr>
+<% } %>
