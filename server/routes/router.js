@@ -19,7 +19,7 @@ route.get('/add-user',services.add_user)
  * @description update user
  * @method GET /update-user
  */
-route.get('/update-user',services.update_user)
+route.get('/update-user/',services.update_user)
 
 
 ///API
